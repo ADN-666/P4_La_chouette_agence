@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("img_opt/texture-paper.webp");
   background-size: 280px 280px;
 }
 
@@ -751,7 +751,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: #000000b3;
   padding: 40px 40px 40px 40px;
 }
 
@@ -817,10 +817,6 @@ h4 {
 
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere.jpg");
-}
-
-.bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
