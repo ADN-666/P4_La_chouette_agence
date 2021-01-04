@@ -686,7 +686,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: black !important;
 }
 
 .container {
@@ -732,7 +732,7 @@ a {
 
 .social {
   max-width: 400px;
-  margin: auto auto auto auto;
+  margin: auto;
 }
 
 h2 {
@@ -744,7 +744,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333333 !important;
+  color: black !important;
 }
 
 .med-width-whitespace {
@@ -1062,6 +1062,19 @@ h4 {
     text-align: center;
   }
 }
+/* modif CSS */
 .noir {
   color: black !important;
+}
+.blanc {
+  color: white !important;
+}
+.citation {
+  font-size: 1.2em;
+}
+@media (min-width: 1200px) {
+  body {
+    max-width: 1920px;
+    margin: auto;
+  }
 }
