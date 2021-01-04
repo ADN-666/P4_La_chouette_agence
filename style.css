@@ -731,8 +731,10 @@ a {
 }
 
 .social {
+  display: flex;
+  justify-content: center;
   max-width: 400px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 h2 {
