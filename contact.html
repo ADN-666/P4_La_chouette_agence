@@ -10,10 +10,12 @@
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <script
+      src="https://kit.fontawesome.com/e4d38b2105.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="./js/jquery-2.1.0.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
@@ -96,14 +98,20 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-6">
-              <form id="form_1">
-                <!--
-                success-msg="Your message has been sent."
-                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-                -->
+              <form id="form_1" method="post" action="./includes/form_1.php">
+                <!--success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble qu'un problème soit survenu. 
+                Veuillez réessayer !"-->
+
                 <div class="form-group">
                   <label for="name"> Nom </label>
-                  <input id="name" class="form-control" required />
+                  <input
+                    id="name"
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    placeholder="Jean Dupont"
+                    required
+                  />
                 </div>
                 <div class="form-group">
                   <label for="email"> Adresse email </label>
@@ -111,6 +119,8 @@
                     id="email"
                     class="form-control"
                     type="email"
+                    name="email"
+                    placeholder="jeandupont@gmail.com"
                     required
                   />
                 </div>
@@ -120,9 +130,11 @@
                   </label>
                   <input
                     class="form-control"
-                    type="email"
-                    required
+                    type="text"
                     id="input_504"
+                    name="input_504"
+                    placeholder="sur le web, dans un journal..."
+                    required
                   />
                 </div>
                 <div class="form-group">
@@ -134,6 +146,8 @@
                     class="form-control"
                     rows="4"
                     cols="50"
+                    name="message"
+                    placeholder="Votre message ici"
                     required
                   ></textarea>
                 </div>
