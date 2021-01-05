@@ -732,7 +732,7 @@ a {
 
 .social {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 400px;
   margin: 20px auto;
 }
@@ -1057,6 +1057,12 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
+  a {
+    font-size: 1.8em;
+  }
+  .logo {
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1073,6 +1079,15 @@ h4 {
 }
 .citation {
   font-size: 1.2em;
+}
+strong,
+em {
+  color: black;
+}
+a:focus,
+input:focus,
+button:focus {
+  outline: 2px solid #000000 !important;
 }
 @media (min-width: 1200px) {
   body {

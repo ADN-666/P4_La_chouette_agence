@@ -7,24 +7,10 @@
       content="La chouette agence est une entreprise de webdesign à Lyon 
 	et vous propose la création de site répondant à vos besoins"
     />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <script
-      src="https://kit.fontawesome.com/e4d38b2105.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/jquery-2.1.0.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/blocs.js"></script>
-    <script src="./js/jquery.touchSwipe.js"></script>
-    <script src="./js/gmaps.js"></script>
 
     <title>La Chouette Agence - Entreprise Webdesign Lyon</title>
 
@@ -44,6 +30,7 @@
               ><img
                 src="img_opt/la-chouette-agence.webp"
                 alt="Logo La Chouette Agence - Entreprise de Webdesign à Lyon"
+                class="logo"
                 height="40"
             /></a>
 
@@ -85,7 +72,7 @@
             <div class="col-sm-12">
               <img
                 src="img/logo.png"
-                class="center-block image-resize-mode"
+                class="center-block logo"
                 width="100"
                 alt="Logo La chouette agence - Entreprise de Webdesign à Lyon "
               />
@@ -119,7 +106,7 @@
             </div>
           </div>
           <div class="row voffset-lg med-width-whitespace">
-            <div class="col-sm-4">
+            <section class="col-sm-4">
               <div class="text-center">
                 <span
                   class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"
@@ -131,8 +118,8 @@
                 rafraîchissement ou que vous partiez de zéro, laissez-nous vous
                 réaliser un design dont vous serez fier.
               </p>
-            </div>
-            <div class="col-sm-4">
+            </section>
+            <section class="col-sm-4">
               <div class="text-center">
                 <span
                   class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"
@@ -144,8 +131,8 @@
                 avec vous pour comprendre vos objectifs commerciaux afin de vous
                 proposer le meilleur design possible.<br />
               </p>
-            </div>
-            <div class="col-sm-4">
+            </section>
+            <section class="col-sm-4">
               <div class="text-center">
                 <span
                   class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"
@@ -157,21 +144,27 @@
                 faire notre équipe de graphistes talentueux pour donner à vos
                 pages une touche finale d'élégance.
               </p>
-            </div>
+            </section>
           </div>
           <div class="row voffset-lg voffset">
-            <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-              <p class="citation">
+            <aside class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+              <figure class="citation">
                 <q
                   ><em>
                     La chouette agence est une excellente agence web ! Les web
                     designers ont réussi à capturer l'essence de notre
                     entreprise et à l'intégrer à notre site. Cela nous a aidé à
                     doubler nos ventes en ligne à Lyon.</em
-                  > </q
-                ><strong> Maxime Guibard, PDG de À vos fourchettes</strong>
-              </p>
-            </div>
+                  >
+                </q>
+                <figcaption>
+                  <strong>
+                    Maxime Guibard,
+                    <cite>PDG de À vos fourchettes</cite></strong
+                  >
+                </figcaption>
+              </figure>
+            </aside>
           </div>
         </div>
       </section>
@@ -352,7 +345,10 @@
             <div class="social">
               <div class="col-sm-3">
                 <div class="text-center">
-                  <a class="social" href="twitter.com" aria-label="Lien twitter"
+                  <a
+                    class="social"
+                    href="https://www.twitter.com"
+                    aria-label="Lien twitter"
                     ><span class="fa fa-twitter icon-md"></span
                   ></a>
                 </div>
@@ -361,7 +357,7 @@
                 <div class="text-center">
                   <a
                     class="social"
-                    href="fr-fr-facebook.com"
+                    href="https://www.facebook.com"
                     aria-label="Lien facebook"
                     ><span class="fa fa-facebook icon-md"></span
                   ></a>
@@ -371,7 +367,7 @@
                 <div class="text-center">
                   <a
                     class="social"
-                    href="dribbble.com"
+                    href="https://www.dribbble.com"
                     aria-label="Lien dribbble"
                     ><span class="fa fa-dribbble icon-md"></span
                   ></a>
@@ -381,7 +377,7 @@
                 <div class="text-center">
                   <a
                     class="social"
-                    href="instagram.com"
+                    href="https://www.instagram.com"
                     aria-label="Lien instagram"
                     ><span class="fa fa-instagram icon-md"></span
                   ></a>
@@ -406,5 +402,17 @@
       </div>
     </footer>
     <!-- Footer - bloc-8 END -->
+    <!-- Script de la page -->
+
+    <script
+      src="https://kit.fontawesome.com/e4d38b2105.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery-2.1.0.min.js"></script>
+    <script src="./js/bootstrap.v3.3.7.min.js"></script>
+    <script src="./js/blocs.min.js"></script>
+    <script src="./js/jquery.touchSwipe.min.js"></script>
+
+    <!-- Fin Script de la page -->
   </body>
 </html>
