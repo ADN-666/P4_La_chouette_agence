@@ -1,5 +1,5 @@
 @font-face {
-  font-family: et-line;
+  font-family: "et-line";
   src: url(../fonts/et-line.eot);
   src: url(../fonts/et-line.eot?#iefix) format("embedded-opentype"),
     url(../fonts/et-line.woff) format("woff"),
@@ -11,7 +11,7 @@
 .et-icon-browser,
 .et-icon-edit,
 .et-icon-presentation {
-  font-family: et-line;
+  font-family: "et-line";
   font-style: normal;
   font-weight: 400;
   font-variant: normal;
