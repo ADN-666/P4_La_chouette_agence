@@ -9,20 +9,21 @@
     agence de webdesign à Lyon"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
+    <link rel="preload" href="style.min.css" as="style" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" type="text/css" href="style.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="style.min.css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
     <title>La chouette agence - Page de contact</title>
 
@@ -83,10 +84,10 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text white">
+              <h1 class="text-center hero-bloc-text noir">
                 Parlons web design !
               </h1>
-              <p class="text-center mg-lg tight-width-whitespace white">
+              <p class="text-center mg-lg tight-width-whitespace noir">
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
                 Parlez-nous de votre projet en complétant le formulaire
@@ -103,7 +104,7 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-6">
-              <form id="form_1" method="post" action="./includes/form_1.php">
+              <form id="form_1" method="post" action="./includes/form.php">
                 <!--success-msg="Votre message a été envoyé." fail-msg="Désolé, il semble qu'un problème soit survenu. 
                 Veuillez réessayer !"-->
 
@@ -165,12 +166,13 @@
               </form>
             </div>
             <div class="col-sm-6">
-              <h2>
+              <h3>
                 <a href="mailto:contact@lachouetteagence.com" class="a_contact"
                   >contact@lachouetteagence.com</a
-                ><br />2 place Sathonay 69001 Lyon<br />Ouvert de 9h à 18h, du
-                lundi au vendredi<br />
-              </h2>
+                >
+              </h3>
+              <p>2 place Sathonay 69001 Lyon</p>
+              <p>Ouvert de 9h à 18h, du lundi au vendredi</p>
             </div>
           </div>
         </div>
