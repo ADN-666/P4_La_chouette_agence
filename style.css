@@ -1050,9 +1050,6 @@ h4 {
   .logo {
     object-fit: cover;
   }
-  .a_contact {
-    font-size: 1em;
-  }
 }
 
 @media (max-width: 767px) {
