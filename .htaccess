@@ -34,5 +34,3 @@ ExpiresDefault "access plus 2 days"
 # END Expires Headers
 
 
-SetOutputFilter DEFLATE
-AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
